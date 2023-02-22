@@ -5,7 +5,7 @@ const Home = () => {
       <div className="badge">ERR</div>
       <div className="flex justify-center">
         <button className="btn">Button 1</button>
-        <button className="btn">Button 2</button>
+        <button className="btn">Button 2</button> 
       </div>
     </>
   );
