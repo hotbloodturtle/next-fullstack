@@ -1,12 +1,15 @@
 import "./globals.css";
 import "./reset.css";
 import { ReactNode } from "react";
+import ReactQueryProvider from "@/containers/ReactQueryProvider";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="ko-KO">
+    <html lang="ko-KR">
       <head />
-      <body>{children}</body>
+      <body>
+        <ReactQueryProvider>{children}</ReactQueryProvider>
+      </body>
     </html>
   );
 }
