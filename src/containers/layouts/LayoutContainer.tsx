@@ -8,8 +8,8 @@ const LayoutContainerHook = () => {
     const pathname = usePathname();
 
     const getPageTitle = () => {
-      if (pathname === "/dashboard") return "Dashboard";
-      return "Admin Home";
+      if (pathname === "/") return "Home";
+      return "Neubility";
     };
     useEffect(() => {
       setTitle(getPageTitle());

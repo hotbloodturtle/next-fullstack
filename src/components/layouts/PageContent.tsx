@@ -1,5 +1,5 @@
 import { FC, ReactNode } from "react";
-import Header from "@/components/admin/layouts/Header";
+import Header from "@/components/layouts/Header";
 
 type PageContentProps = {
   children: ReactNode;

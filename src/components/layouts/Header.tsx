@@ -1,7 +1,7 @@
-import PageTitle from "@/components/admin/layouts/PageTitle";
-import MobileSideBarToggle from "@/components/admin/layouts/MobileSideBarToggle";
-import ButtonNotification from "@/components/admin/layouts/ButtonNotification";
-import ButtonUserProfile from "@/components/admin/layouts/ButtonUserProfile";
+import PageTitle from "@/components/layouts/PageTitle";
+import MobileSideBarToggle from "@/components/layouts/MobileSideBarToggle";
+import ButtonNotification from "@/components/layouts/ButtonNotification";
+import ButtonUserProfile from "@/components/layouts/ButtonUserProfile";
 
 const Header = () => {
   return (

@@ -20,7 +20,7 @@ const LoginContainerHook = () => {
     });
     const data = await result.json();
     setAccessToken(data?.accessToken);
-    push("/admin");
+    push("/");
   };
 
   return {

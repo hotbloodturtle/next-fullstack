@@ -1,4 +1,4 @@
-import LayoutContainer from "@/containers/admin/LayoutContainer";
+import LayoutContainer from "@/containers/layouts/LayoutContainer";
 
 const PageTitle = () => {
   const { useHeaderTitle } = LayoutContainer.useContainer();

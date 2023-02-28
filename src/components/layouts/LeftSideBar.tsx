@@ -1,6 +1,6 @@
-import TopLogo from "@/components/admin/layouts/TopLogo";
-import SideMultiMenu from "@/components/admin/layouts/SideMultiMenu";
-import SideSingleMenu from "@/components/admin/layouts/SideSingleMenu";
+import TopLogo from "@/components/layouts/TopLogo";
+import SideMultiMenu from "@/components/layouts/SideMultiMenu";
+import SideSingleMenu from "@/components/layouts/SideSingleMenu";
 import {
   ChartBarIcon,
   CircleStackIcon,

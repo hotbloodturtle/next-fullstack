@@ -1,6 +1,6 @@
 import { FC, ReactNode } from "react";
-import LeftSideBar from "@/components/admin/layouts/LeftSideBar";
-import PageContent from "@/components/admin/layouts/PageContent";
+import LeftSideBar from "@/components/layouts/LeftSideBar";
+import PageContent from "@/components/layouts/PageContent";
 
 type MainLayoutProps = {
   children: ReactNode;

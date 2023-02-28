@@ -1,5 +1,5 @@
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
-import useSideBar from "@/hooks/admin/layouts/useSideBar";
+import useSideBar from "@/hooks/layouts/useSideBar";
 import { FC, ReactNode } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";

@@ -1,8 +1,7 @@
-"use client";
 import TokenContainer from "@/containers/TokenContainer";
 import { useEffect } from "react";
 
-const PageAdminHome = () => {
+const PageHome = () => {
   const { accessToken } = TokenContainer.useContainer();
   useEffect(() => {
     console.log(document.cookie);
@@ -16,4 +15,4 @@ const PageAdminHome = () => {
   );
 };
 
-export default PageAdminHome;
+export default PageHome;

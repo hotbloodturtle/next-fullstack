@@ -1,8 +1,7 @@
-"use client";
-
 import LoginContainer from "@/containers/login/LoginContainer";
 import LoginIntro from "@/components/login/LoginIntro";
 import LoginForm from "@/components/login/LoginForm";
+import { AppProps } from "next/app";
 
 const PageLoginContent = () => {
   return (
@@ -24,5 +23,7 @@ const PageLogin = () => {
     </LoginContainer.Provider>
   );
 };
+
+PageLogin.getLayout = (page: AppProps) => page;
 
 export default PageLogin;
