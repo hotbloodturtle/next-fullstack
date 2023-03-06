@@ -1,6 +1,6 @@
 
 
-## Reservation fullstack
+## next fullstack
 
 - Node.js 16, next13, typescript
 - prisma, mysql
